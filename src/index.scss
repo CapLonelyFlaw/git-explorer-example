@@ -1,0 +1,24 @@
+/**
+ * Vendor styles go here
+ **/
+
+@import '~bootstrap/dist/css/bootstrap.css';
+
+/**
+ * some css reset styles
+**/
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/**
+ * Global styles go here
+ **/
+
+body {
+    background-color: #EEE;
+    overflow-y: scroll;
+}

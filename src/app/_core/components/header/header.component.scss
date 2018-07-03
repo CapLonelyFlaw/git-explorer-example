@@ -1,0 +1,12 @@
+app-header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding: 1rem;
+    background: #343a40;
+    z-index: 1000;
+
+    & .logo {
+        font-size: 25px;
+    }
+}
